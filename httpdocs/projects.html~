@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Projects | Mark Westerlund</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width"/>
+  </head>
+  <body> 
+    <header id="top" class="main-header-projects">
+    	<div class="navbar">
+    		<!-- <span class="logo"><img src="img/mwlogo_white.png" alt="logo"></span> -->
+    		
+    		<ul class="navlinks">
+		    	<li><a href="index.html" >Home</a></li>
+		    	<li><a href="projects.html" class="selected">Projects</a></li>
+		    	<li><a href="Mark_Westerlund_Resume.pdf">Resume</a></li>
+		    	<li><a href="contact.html" >Contact</a></li>
+		  	</ul>
+		  	
+    	</div>
+      <span class="title">Full stack/Mobile developer</span>
+      <h1>Projects</h1>
+    </header>
+    
+		<div class="primary-content t-border">
+			<p class="intro">
+				These are some of the various projects I have been working on recently. All of my personal projects are up on my <a href="https://github.com/MwesterlundDev">github account.</a>
+			</p>
+		
+		</div><!-- End .primary-content -->
+		
+		<div class="secondary-content t-border group"> 
+    	<div class="project" id="msg">
+      	<h3>New York Knicks and Rangers Offical Apps</h3>
+      	<p>
+      		My largest project during my time at YinzCam was the Official New York Knicks and New York Rangers apps.  As the project lead, I handled all communication between YinzCam and the Madison Square Garden project team.  During the project, I managed daily stand-up calls with the team at MSG, and translated requirements to the YinzCam development team.  This project included several third party integrations to the standard YinzCam platform as well as many customizations.  Despite the customizations, the apps released on time before the NHL and NBA seasons.
+      	</p>
+      	
+      	<p>Highlighted features: </p>
+      	<ul>
+      		<li>News: Real-time breaking news, galleries, and videos</li>
+      		<li>In-Arena Video Replays: Video replays of the live action during Knicks and Rangers games</li>
+      		<li>Garden 366: Iconic Garden Events gallery for every day of the year</li>
+      		<li>Where to Watch: A TV channel locater for your cable provider based on your location</li>
+      		<li>In-Seat Ordering: Order food, drinks, and other apparel directly from your seat</li>
+      	</ul>
+      </div>
+    </div>
+
+		<div class="secondary-content group"> 
+      <div class="project" id="blog">
+      	<h3>My Blog</h3>
+      	<img src="img/homepage.png" id="blog-img" class="lefty group">
+      	<p class="righty group">
+      		This is my blog.  Currently, it is a handful of static HTML pages being served up with a simple Node.js server.  It is going to progress to a full active blogging site using Node, Express, MongoDB, and a JavaScript MVC framework.	
+      	</p>
+      </div>
+    </div><!-- End .secondary-content -->
+      
+    <div class="secondary-content group"> 
+    	<div class="project" id="ribbit">
+      	<a href="https://github.com/MwesterlundDev/Ribbit"><h3>Ribbit Android App</h3></a>
+      	<img src="img/ribbit.png" id="ribbit-img" class="lefty group">
+      	<p class="righty group">
+      		Ribbit is an app designed by <a href="www.teamtreehouse.com/markwesterlund">TeamTreehouse.com</a> to teach Android programming. It is a Snap-chat style app in which you send images and videos to friends, that expire ten seconds after opening.  It is build for Android devices, and uses Parse as the back-end.  The app is not in the Google Play store because it is not my own design, however, I would be happy to distribute it via an .apk file.
+      	</p>
+      </div>
+    </div>
+      
+    
+      
+		
+    
+		<footer class="main-footer">
+			<p>&copy; 2015 Mark Westerlund</p>
+			<p><img src="img/nodejs.png"><a href="http://aws.amazon.com/what-is-cloud-computing"><img src="http://awsmedia.s3.amazonaws.com/AWS_logo_poweredby_black_127px.png" alt="Powered by AWS Cloud Computing"></a></p>
+			<a href="#top">Back to top &raquo;</a>
+		</footer>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mark Westerlund</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width"/>
+  </head>
+  <body> 
+    <header id="top" class="main-header-index">
+    	<div class="navbar">
+    		<!-- <span class="logo"><img src="img/mwlogo_white.png" alt="logo"></span> -->
+    		
+    		<ul class="navlinks">
+		    	<li><a href="index.html" class="selected" >Home</a></li>
+		    	<li><a href="projects.html">Projects</a></li>
+		    	<li><a href="Mark_Westerlund_Resume.pdf">Resume</a></li>
+		    	<li><a href="contact.html" >Contact</a></li>
+		  	</ul>
+		  	
+    	</div>
+      <span class="title">Full stack/Mobile developer</span>
+      <h1>Mark Westerlund</h1>
+    </header>
+    
+		<div class="primary-content t-border">
+			<h3>A Brief Background</h3>
+			<p class="intro">
+				I love to write code.  This love affair began when I was a teenager writing BASIC, and I have never looked back.  I love the challenge of the problem and the triumph of the solution.  I enjoy learning anything new, and the technology along with it.  
+			</p>
+			<p class="intro">
+				When I am not writing code, I love being outside.  I love to disk golf, golf (the old fashioned kind), and to run.  I enjoy cooking and spending time with my future wife.
+			</p>
+      
+			<a class="callout" href="/Mark_Westerlund_Resume.pdf">My Resume</a>
+		</div><!-- End .primary-content -->
+
+		<div class="secondary-content t-border group"> 
+			<a href="projects.html"><h3 id="projects">Recent Projects</h3></a>
+      <div class="tips">
+        <a href="projects.html#msg"><img src="img/rangers.png" alt="Rangers App store image"></a>
+        <h3>New York Knicks and Rangers Offical Apps</h3>
+        <p>
+          My largest project during my time at YinzCam was the Official New York Knicks and New York Rangers apps.  As the project lead, I handled all communication between YinzCam and the Madison Square Garden project team.
+        </p>
+      </div>
+      
+      <div class="resorts">
+        <a href="projects.html#blog"><img src="img/homepage.png" alt="Mountain Landscape"></a>
+        <h3>My Blog</h3>
+        <p>
+          This is my blog.  Currently, it is a handful of static HTML pages being served up with a simple Node.js server.  It is going to progress to a full active blogging site using Node, Express, MongoDB, and a JavaScript MVC framework.
+          </p>
+      </div>
+		</div><!-- End .secondary-content -->
+    
+		<footer class="main-footer">
+			<p>&copy; 2015 Mark Westerlund</p>
+			<p><img src="img/nodejs.png"><a href="http://aws.amazon.com/what-is-cloud-computing"><img src="http://awsmedia.s3.amazonaws.com/AWS_logo_poweredby_black_127px.png" alt="Powered by AWS Cloud Computing"></a></p>
+			<a href="#top">Back to top &raquo;</a>
+		</footer>
+  </body>
+</html>
